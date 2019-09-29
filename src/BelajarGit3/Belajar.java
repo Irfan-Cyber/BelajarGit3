@@ -1,4 +1,5 @@
 package BelajarGit3;
+import static BelajarGit3.Kucing.*;
 public class Belajar {
     public static void main(String[] args){
         int umur;
@@ -13,5 +14,8 @@ public class Belajar {
         Manusia bejo = new Manusia(umur,nama,jabatan);
 
         System.out.println("Nama: "+bejo.getNama()+"\n"+"Umur: "+bejo.getUmur()+"\n"+"cita-cita: "+bejo.getJabatan());
+
+        System.out.println("Bambang punya kucing bunyinya");
+        bicara();
     }
 }
